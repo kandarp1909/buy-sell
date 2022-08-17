@@ -1,14 +1,14 @@
 .viewParentDiv {
-  padding-top: 4em;
+  padding-top: 10em;
   display: flex;
 }
 .viewParentDiv .imageShowDiv {
-  padding: 16px;
+  padding: 65px;
   width: 70vw;
   
 }
 .viewParentDiv .imageShowDiv img {
-  width: 65vw;
+  width: 40vw;
   height:100%;
   object-fit: cover;
 }
