@@ -20,7 +20,7 @@ function Banner() {
           <DropdownButton
           style={{margin:5}}
       align="end"
-      title="Dropdown end"
+      title="Categories"
       id="dropdown-menu-align-end"
       onSelect={(e)=>{setCategory(e);
         

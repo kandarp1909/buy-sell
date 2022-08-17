@@ -59,11 +59,11 @@ function Header() {
           <OlxLogo></OlxLogo>
         </div>
         <div className="placeSearch">
-          {/* <input type="text" 
+           <input type="text" 
           placeholder="Search specific product..."
           value={wordEntered}
           onChange={handleFilter}
-        /> */}
+        /> 
         {filteredData.length === 0 ? (
           <div onClick={handleEmptyClick}> <SearchIcon /> </div>
          ) : (
